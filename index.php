@@ -24,8 +24,53 @@
   <body>
     <div class="container">
       <h1>Bootstrap and CSS test</h1>
-        
 
+<div class="container">
+
+<div id="calc-buttons">
+  <div class="row">
+    <div class="col-sm">
+        <button type="button" class="btn btn-dark">Dark</button>
+      
+    </div>
+    <div class="col-sm">
+      
+      <button type="button" class="btn btn-dark">Dark</button>
+    </div>
+    <div class="col-sm">
+      <button type="button" class="btn btn-dark">Dark</button>
+    </div>
+
+    <div class="col-sm">
+      <button type="button" class="btn btn-dark">Dark</button>
+    </div>
+  </div>
+
+    <div class="row">
+    <div class="col-sm">
+        <button type="button" class="btn btn-dark">Dark</button>
+      
+    </div>
+    <div class="col-sm">
+      
+      <button type="button" class="btn btn-dark">Dark</button>
+    </div>
+    <div class="col-sm">
+      <button type="button" class="btn btn-dark">Dark</button>
+    </div>
+
+    <div class="col-sm">
+      <button type="button" class="btn btn-dark">Dark</button>
+    </div>
+  </div>
+  </div>
+</div>
+          
+          
+      <button class="button">Click Me</button>
+
+          
+        
 
     </div>
     <?php
