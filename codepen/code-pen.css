@@ -1,3 +1,7 @@
+body {
+  /*  because codepen is weird  */
+  border-top: solid white 90px;
+}
 
 .calc-container {
     margin: 0 auto;
