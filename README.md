@@ -1,1 +1,6 @@
-# Starting point for pages using JS, jQuery, bootstrap and PHP
+# A Javascript calculator for FCC
+
+Uses:
+
+1. Javascript
+2. Bootstrap
