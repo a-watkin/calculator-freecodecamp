@@ -1,32 +1,78 @@
-h1 {
-    color: green;
+body {
+  /*  because codepen is weird  */
+  border-top: solid white 40px;
 }
 
-#calc-buttons {
-    max-width: 200px;
-    min-width: 50px;
-    margin: 2%;
+.calc-container {
+    margin: 0 auto;
+    border: 2px black solid;
+    border-radius: 15px;
+    max-width: 480px;
+    min-width 480px;
 }
 
-.button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+#button-area {
+/*    max-width: 300px;*/
+    min-width: 280px;
+    margin: 20px;
+    display: block;
 }
 
-.button:hover {background-color: #3e8e41}
+#title {
+    text-align: center;
+}
 
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+#result-area {
+    border: solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 4px;
+    border-radius: 15px;
+}
+
+#result {
+    font-family: 'Inconsolata', monospace;
+    
+/*    margin-top: 2%;*/
+    margin-bottom: 0%;
+    text-align: right;
+}
+
+#sub-text {
+    font-family: 'Inconsolata', monospace;
+    text-align: right;
+    margin-bottom: 0%;
+}
+
+/* buttons container */
+#number-buttons {
+/*    border-style: solid; */
+    margin-bottom: 10px;
+}
+
+/* number rows and columns spacing */
+.col-sm-2 {
+    padding-left: 1%;
+    padding-right: 1%;
+    
+}
+
+.col-sm-3 {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.col-sm-6 {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.button-rows {
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+#me {
+    margin-top: 15px;
+    text-align: center;
 }
