@@ -5,8 +5,9 @@ A basic Javascript calculator made as part of the projects for front end stuff a
 Uses:
 
 1. Javascript
-2. Bootstrap
-3. Google fonts
+2. jQuery
+3. Bootstrap
+4. Google fonts
 
 [Full screen version live on CodePen](https://codepen.io/adevwatkin/full/KRXaNK/)
 
